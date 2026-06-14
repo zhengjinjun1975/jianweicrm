@@ -1,4 +1,4 @@
-import { Trans, useLingui } from '@lingui/react/macro';
+﻿import { Trans, useLingui } from '@lingui/react/macro';
 import { lazy, Suspense } from 'react';
 
 const BackgroundMockPage = lazy(() =>
@@ -46,7 +46,7 @@ export const NotFound = () => {
 
   return (
     <>
-      <PageTitle title={t`Page Not Found | Twenty`} />
+      <PageTitle title={t`页面未找到 | 见微CRM`} />
       <StyledBackDrop>
         <AnimatedPlaceholderErrorContainer>
           <AnimatedPlaceholder type="error404" />

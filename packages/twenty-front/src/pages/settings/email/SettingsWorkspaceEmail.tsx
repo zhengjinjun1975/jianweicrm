@@ -1,4 +1,4 @@
-import { useLingui } from '@lingui/react/macro';
+﻿import { useLingui } from '@lingui/react/macro';
 
 import { billingState } from '@/client-config/states/billingState';
 import { isEmailingDomainInDemoModeState } from '@/client-config/states/isEmailingDomainInDemoModeState';
@@ -54,7 +54,7 @@ export const SettingsWorkspaceEmail = () => {
             <SettingsOptionCardContentButton
               Icon={IconLock}
               title={t`Emailing is in demo mode`}
-              description={t`Emails are logged, not sent. Sending requires the AWS SES driver with an Enterprise license, or Twenty Cloud.`}
+              description={t`Emails are logged, not sent. 发送需要AWS SES驱动和企业许可证，或见微CRM云服务。`}
               Button={
                 <Button
                   title={t`Upgrade`}

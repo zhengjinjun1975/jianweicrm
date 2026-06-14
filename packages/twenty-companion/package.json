@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "twenty-desktop",
   "productName": "Twenty",
   "version": "1.0.0",
-  "description": "Twenty meeting recorder",
+  "description": "见微CRM会议记录器",
   "main": ".webpack/main",
   "scripts": {
     "start": "concurrently \"yarn start:server\" \"yarn start:electron\"",

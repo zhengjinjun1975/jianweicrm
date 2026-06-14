@@ -1,6 +1,6 @@
-{
+﻿{
   "name": "twenty-docs",
-  "description": "Twenty documentation site powered by Mintlify",
+  "description": "见微CRM文档站点，由Mintlify驱动",
   "author": "",
   "private": true,
   "license": "AGPL-3.0",

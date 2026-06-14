@@ -1,4 +1,4 @@
-import { FieldActorSource } from 'twenty-shared/types';
+﻿import { FieldActorSource } from 'twenty-shared/types';
 import { isDefined } from 'twenty-shared/utils';
 import { type EntityManager } from 'typeorm';
 
@@ -462,14 +462,14 @@ export const prefillWorkflows = async (
                   icon: 'IconVariable',
                   type: 'string',
                   label: 'url',
-                  value: 'https://twenty.com',
+                  value: 'https://jianweicrm.com',
                   isLeaf: true,
                 },
                 domain: {
                   icon: 'IconVariable',
                   type: 'string',
                   label: 'domain',
-                  value: 'twenty.com',
+                  value: 'jianweicrm.com',
                   isLeaf: true,
                 },
               },

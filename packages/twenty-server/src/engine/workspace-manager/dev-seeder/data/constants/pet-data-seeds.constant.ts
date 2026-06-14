@@ -1,4 +1,4 @@
-type PetDataSeed = {
+﻿type PetDataSeed = {
   id: string;
   name: string;
   species: string;
@@ -85,11 +85,11 @@ export const PET_DATA_SEEDS: PetDataSeed[] = [
     vetPhonePrimaryPhoneCallingCode: '+33',
     vetPhonePrimaryPhoneCountryCode: 'FR',
     vetPhonePrimaryPhoneNumber: '789012345',
-    vetEmailPrimaryEmail: 'john@twenty.com',
+    vetEmailPrimaryEmail: 'john@jianweicrm.com',
     vetEmailAdditionalEmails: JSON.stringify([
-      'tim@twenty.com',
-      'timapple@twenty.com',
-      'johnappletim@twenty.com',
+      'tim@jianweicrm.com',
+      'timapple@jianweicrm.com',
+      'johnappletim@jianweicrm.com',
     ]),
     birthday: new Date('2019-01-01').toISOString(),
     isGoodWithKids: false,

@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "twenty-claude-skills",
   "private": true,
   "version": "0.1.0",
-  "description": "Claude skills for working with Twenty.",
+  "description": "用于见微CRM的Claude技能包。",
   "license": "AGPL-3.0",
   "files": [
     "skills"

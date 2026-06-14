@@ -1,4 +1,4 @@
-import { msg } from '@lingui/core/macro';
+﻿import { msg } from '@lingui/core/macro';
 import { STANDARD_OBJECTS } from 'twenty-shared/metadata';
 
 import { type FlatObjectMetadata } from 'src/engine/metadata-modules/flat-object-metadata/types/flat-object-metadata.type';
@@ -79,6 +79,7 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.calendarChannelEventAssociation.universalIdentifier,
         nameSingular: 'calendarChannelEventAssociation',
         namePlural: 'calendarChannelEventAssociations',
@@ -111,6 +112,7 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.calendarEventParticipant.universalIdentifier,
         nameSingular: 'calendarEventParticipant',
         namePlural: 'calendarEventParticipants',
@@ -204,8 +206,8 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
         universalIdentifier: STANDARD_OBJECTS.company.universalIdentifier,
         nameSingular: 'company',
         namePlural: 'companies',
-        labelSingular: i18nLabel(msg`Company`),
-        labelPlural: i18nLabel(msg`Companies`),
+        labelSingular: i18nLabel(msg`客户`),
+          labelPlural: i18nLabel(msg`客户`),
         description: i18nLabel(msg`A company`),
         icon: 'IconBuildingSkyscraper',
         isSearchable: true,
@@ -260,12 +262,14 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.messageCampaign.universalIdentifier,
         nameSingular: 'messageCampaign',
         namePlural: 'messageCampaigns',
         labelSingular: i18nLabel(msg`Campaign`),
         labelPlural: i18nLabel(msg`Campaigns`),
         description: i18nLabel(
+
           msg`A bulk email send to an audience, with delivery stats`,
         ),
         icon: 'IconSend',
@@ -320,6 +324,7 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.messageListMember.universalIdentifier,
         nameSingular: 'messageListMember',
         namePlural: 'messageListMembers',
@@ -350,6 +355,7 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.messageChannelMessageAssociation.universalIdentifier,
         nameSingular: 'messageChannelMessageAssociation',
         namePlural: 'messageChannelMessageAssociations',
@@ -382,17 +388,22 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.messageChannelMessageAssociationMessageFolder
+
             .universalIdentifier,
         nameSingular: 'messageChannelMessageAssociationMessageFolder',
         namePlural: 'messageChannelMessageAssociationMessageFolders',
         labelSingular: i18nLabel(
+
           msg`Message Channel Message Association Message Folder`,
         ),
         labelPlural: i18nLabel(
+
           msg`Message Channel Message Association Message Folders`,
         ),
         description: i18nLabel(
+
           msg`Join table linking message channel message associations to message folders`,
         ),
         icon: 'IconFolder',
@@ -421,6 +432,7 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.messageParticipant.universalIdentifier,
         nameSingular: 'messageParticipant',
         namePlural: 'messageParticipants',
@@ -511,8 +523,8 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
         universalIdentifier: STANDARD_OBJECTS.note.universalIdentifier,
         nameSingular: 'note',
         namePlural: 'notes',
-        labelSingular: i18nLabel(msg`Note`),
-        labelPlural: i18nLabel(msg`Notes`),
+        labelSingular: i18nLabel(msg`笔记`),
+          labelPlural: i18nLabel(msg`笔记`),
         description: i18nLabel(msg`A note`),
         icon: 'IconNotes',
         isSearchable: true,
@@ -565,8 +577,8 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
         universalIdentifier: STANDARD_OBJECTS.opportunity.universalIdentifier,
         nameSingular: 'opportunity',
         namePlural: 'opportunities',
-        labelSingular: i18nLabel(msg`Opportunity`),
-        labelPlural: i18nLabel(msg`Opportunities`),
+        labelSingular: i18nLabel(msg`商机`),
+          labelPlural: i18nLabel(msg`商机`),
         description: i18nLabel(msg`An opportunity`),
         icon: 'IconTargetArrow',
         isSearchable: true,
@@ -592,15 +604,18 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
         universalIdentifier: STANDARD_OBJECTS.person.universalIdentifier,
         nameSingular: 'person',
         namePlural: 'people',
-        labelSingular: i18nLabel(msg`Person`),
-        labelPlural: i18nLabel(msg`People`),
+        labelSingular: i18nLabel(msg`联系人`),
+          labelPlural: i18nLabel(msg`联系人`),
         description: i18nLabel(msg`A person`),
         icon: 'IconUser',
         isSearchable: true,
         shortcut: 'P',
         duplicateCriteria: [
+
           ['nameFirstName', 'nameLastName'],
+
           ['linkedinLinkPrimaryLinkUrl'],
+
           ['emailsPrimaryEmail'],
         ],
         labelIdentifierFieldMetadataName: 'name',
@@ -625,8 +640,8 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
         universalIdentifier: STANDARD_OBJECTS.task.universalIdentifier,
         nameSingular: 'task',
         namePlural: 'tasks',
-        labelSingular: i18nLabel(msg`Task`),
-        labelPlural: i18nLabel(msg`Tasks`),
+        labelSingular: i18nLabel(msg`任务`),
+          labelPlural: i18nLabel(msg`任务`),
         description: i18nLabel(msg`A task`),
         icon: 'IconCheckbox',
         isSearchable: true,
@@ -680,12 +695,14 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.timelineActivity.universalIdentifier,
         nameSingular: 'timelineActivity',
         namePlural: 'timelineActivities',
-        labelSingular: i18nLabel(msg`Timeline Activity`),
-        labelPlural: i18nLabel(msg`Timeline Activities`),
+        labelSingular: i18nLabel(msg`动态`),
+          labelPlural: i18nLabel(msg`动态`),
         description: i18nLabel(
+
           msg`Aggregated / filtered event to be displayed on the timeline`,
         ),
         icon: 'IconTimelineEvent',
@@ -741,6 +758,7 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.workflowAutomatedTrigger.universalIdentifier,
         nameSingular: 'workflowAutomatedTrigger',
         namePlural: 'workflowAutomatedTriggers',
@@ -800,6 +818,7 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.workflowVersion.universalIdentifier,
         nameSingular: 'workflowVersion',
         namePlural: 'workflowVersions',
@@ -831,6 +850,7 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
       dependencyFlatEntityMaps,
       context: {
         universalIdentifier:
+
           STANDARD_OBJECTS.workspaceMember.universalIdentifier,
         nameSingular: 'workspaceMember',
         namePlural: 'workspaceMembers',
@@ -854,3 +874,6 @@ export const STANDARD_FLAT_OBJECT_METADATA_BUILDERS_BY_OBJECT_NAME = {
     args: Omit<CreateStandardObjectArgs<P>, 'context' | 'objectName'>,
   ) => FlatObjectMetadata;
 };
+
+
+

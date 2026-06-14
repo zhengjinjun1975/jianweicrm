@@ -1,4 +1,4 @@
-import { SettingsCard } from '@/settings/components/SettingsCard';
+﻿import { SettingsCard } from '@/settings/components/SettingsCard';
 import { SettingsDiscoveryHeroCard } from '@/settings/components/SettingsDiscoveryHeroCard';
 import { SettingsPageContainer } from '@/settings/components/SettingsPageContainer';
 import { SettingsLabContent } from '@/settings/lab/components/SettingsLabContent';
@@ -127,7 +127,7 @@ export const SettingsCommunity = () => {
         <Section>
           <H2Title
             title={t`Partners`}
-            description={t`Hire a partner to help you implement and customize Twenty.`}
+            description={t`雇佣合作伙伴帮助您实施和定制见微CRM。`}
           />
           <StyledCardLink
             href="https://twenty.com/partners/list"

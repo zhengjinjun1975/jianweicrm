@@ -1,4 +1,4 @@
-import { styled } from '@linaria/react';
+﻿import { styled } from '@linaria/react';
 import { useContext, useState } from 'react';
 import { useAtomStateValue } from '@/ui/utilities/state/jotai/hooks/useAtomStateValue';
 import { useAtomState } from '@/ui/utilities/state/jotai/hooks/useAtomState';
@@ -123,7 +123,7 @@ export const SyncEmails = () => {
     <ModalContent isVerticallyCentered isHorizontallyCentered>
       <Title noMarginTop>{t`Emails and Calendar`}</Title>
       <SubTitle>
-        {t`Sync your Emails and Calendar with Twenty. Choose your privacy settings.`}
+        {t`将您的电子邮件和日历与见微CRM同步。 Choose your privacy settings.`}
       </SubTitle>
       <StyledSyncEmailsContainer>
         <OnboardingSyncEmailsSettingsCard

@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "twenty-zapier",
   "version": "2.2.0",
-  "description": "Effortlessly sync Twenty with 3000+ apps. Automate tasks, boost productivity, and supercharge your customer relationships!",
+  "description": "轻松将见微CRM与3000多个应用同步。自动化任务，提升效率，增强客户关系！",
   "main": "lib/index.cjs",
   "engines": {
     "node": "^24.5.0",

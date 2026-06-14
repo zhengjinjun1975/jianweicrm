@@ -1,4 +1,4 @@
-import { styled } from '@linaria/react';
+﻿import { styled } from '@linaria/react';
 import { Trans } from '@lingui/react/macro';
 
 import { useWorkspaceBypass } from '@/auth/sign-in-up/hooks/useWorkspaceBypass';
@@ -63,9 +63,9 @@ export const FooterNote = () => {
   if (!isOnAWorkspace) {
     return (
       <StyledCopyContainer>
-        <Trans>By using Twenty, you agree to the</Trans>{' '}
+        <Trans>使用见微CRM即表示同意</Trans>{' '}
         <a
-          href="https://twenty.com/legal/terms"
+          href="https://jianweicrm.com/legal/terms"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -73,7 +73,7 @@ export const FooterNote = () => {
         </a>{' '}
         <Trans>and</Trans>{' '}
         <a
-          href="https://twenty.com/legal/privacy"
+          href="https://jianweicrm.com/legal/privacy"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -95,7 +95,7 @@ export const FooterNote = () => {
         </>
       )}
       <a
-        href="https://twenty.com/legal/privacy"
+        href="https://jianweicrm.com/legal/privacy"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -103,7 +103,7 @@ export const FooterNote = () => {
       </a>
       <StyledSeparator>•</StyledSeparator>
       <a
-        href="https://twenty.com/legal/terms"
+        href="https://jianweicrm.com/legal/terms"
         target="_blank"
         rel="noopener noreferrer"
       >

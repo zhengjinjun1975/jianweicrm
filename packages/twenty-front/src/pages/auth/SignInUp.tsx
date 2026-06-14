@@ -1,4 +1,4 @@
-import { useSignInUp } from '@/auth/sign-in-up/hooks/useSignInUp';
+﻿import { useSignInUp } from '@/auth/sign-in-up/hooks/useSignInUp';
 import { useSignInUpForm } from '@/auth/sign-in-up/hooks/useSignInUpForm';
 import {
   SignInUpStep,
@@ -130,7 +130,7 @@ export const SignInUp = () => {
     }
 
     if (isGlobalScope) {
-      return t`Welcome to Twenty`;
+      return t`欢迎使用见微CRM`;
     }
 
     const workspaceName = workspacePublicData?.displayName;

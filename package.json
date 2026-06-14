@@ -1,4 +1,4 @@
-{
+﻿{
   "private": true,
   "devDependencies": {
     "@nx/jest": "22.7.5",
@@ -23,7 +23,7 @@
     "yarn": ">=4.0.2"
   },
   "license": "AGPL-3.0",
-  "name": "twenty",
+  "name": "jianwei-crm",
   "packageManager": "yarn@4.13.0",
   "resolutions": {
     "graphql": "16.8.1",

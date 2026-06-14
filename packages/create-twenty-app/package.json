@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "create-twenty-app",
   "version": "2.13.0",
-  "description": "Command-line interface to create Twenty application",
+  "description": "命令行工具，用于创建见微CRM应用",
   "main": "dist/cli.cjs",
   "bin": "dist/cli.cjs",
   "files": [
